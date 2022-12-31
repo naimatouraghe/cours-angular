@@ -20,3 +20,11 @@ Javascript est un language très permissif et la contrainte du typage par le TS 
 
 La [documentation Typescript](https://www.typescriptlang.org) est a consommer sans modération! 
 
+
+## Les avantages d'Angular
+- Angular est un framework complet : on peut créer desWeb App sans avoir besoin de librairies externes. 
+
+
+- Les bonnes pratiques Angular sont précises ce qui assure une omogénité des structures des web app qui auront tendance à se ressembler. 
+
+- Le framework a été conçu pour fonctionner avec TypeScript – il est tout à fait possible d'utiliser le TypeScript pour React, Vue ou Svelte, mais Angular a été conçu pour ce langage, donc son intégration est forcément plus profonde.

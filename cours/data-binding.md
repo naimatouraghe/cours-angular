@@ -29,18 +29,29 @@ export class FaceSnapComponent implements OnInit{
   title!: string;
   description!: string;
   createdDate!: Date;
-  snaps!: number;
+  likes!: number;
   ngOnInit() {
     this.title = 'Cloud Architect';
     this.description = 'Mon projet professionnel sur 5 ans';
     this.createdDate = new Date;
-    this.snaps = 50;
+    this.likes = 50;
   }
 }
 ```
 
 ## string interpolation 
+La string interpolation est la méthode la plus simple pour afficher le contenu d'une variable dans le template de la vue. Il suffit d'appller la variable qui contient le contenu à afficher entre double ```{{}}```. 
+```
+<h2>{{ title }}</h2>
+<p>Mis en ligne le {{ createdDate }}</p>
+<p>{{ description }}</p>
+<p>🤌 {{ likes }}</p>
+```
+Angular remplace ainsi la variable entre doubles accolades par sa valeur, ce qui donne :
+
+![image](https://user-images.githubusercontent.com/80955884/210140034-1becf949-469d-4b63-b88f-443869346076.png)
+
 
 ## attribute binding ( liaison par attribut )
-
+Mais qu'est-ce qui se passe si on veut attribuer une valeur dynamique à un attribut d'un élément HTML, comme la  src  d'une image ?
 
